@@ -10,11 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  foods_array = []
-  groceries.each do |category, foods|
-    foods.each do |types|
-    foods_array << types
-  end
-end
-foods_array
+groceries.values.flatten
 end
