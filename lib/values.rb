@@ -16,3 +16,4 @@ def get_the_values(groceries)
     foods_array << types
   end
 end
+end
