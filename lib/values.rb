@@ -12,6 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   foods_array = []
   groceries.each do |category, foods|
-    foods_array << foods
+    foods.each do |types|
+    foods_array << types
   end
 end
